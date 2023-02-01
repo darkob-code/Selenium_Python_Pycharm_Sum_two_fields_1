@@ -10,5 +10,5 @@ driver.get('https://darkob-code.github.io/Selenium_Python_Pycharm_Sum_two_fields
 sum1 = driver.find_element(By.NAME, 'firstBox')
 sum2 = driver.find_element(By.NAME, 'secondBox')
 
-sum1.send_keys(15) #automatizacija upisa broja u polje
-sum2.send_keys(15) #automatizacija upisa broja u polje
+sum1.send_keys(15)
+sum2.send_keys(15)
